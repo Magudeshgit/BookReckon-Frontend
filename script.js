@@ -8,6 +8,7 @@ btn.addEventListener('click', ()=>{
     if (input.value === '') return null
     else
     {
+        cardwrap.innerHTML = ''
         const response = fetch(API, {
             method: 'POST',
             headers: {

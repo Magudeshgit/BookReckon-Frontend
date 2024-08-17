@@ -144,6 +144,7 @@ nav>ul>li>a
 {
     min-width: 100vw;
     padding: 48px;
+    text-align: center;
 }
 .suggestions>h2
 {
@@ -198,7 +199,15 @@ nav>ul>li>a
     font-weight: 300;
     font-size: 1.6em;
 }
-
+.nosuggestions
+{
+    display: flex;
+    gap: 1em;
+    align-items: center;
+    background: #d4d4d4;
+    border-radius: 20px;
+    padding: 12px 24px;
+}
 @media (max-width: 600px) {
     .content
     {
